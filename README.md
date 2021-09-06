@@ -1,1 +1,1 @@
-https://Nekoguard.github.io/rsschool-cv/cv
+https://nekoguard.github.io/rsschool-cv/
