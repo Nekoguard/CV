@@ -13,6 +13,10 @@
 <body>
     <div class="wrapper">
         <header class="header">
+            <div class="menu-icon">
+                <span></span>
+            </div>
+
             <nav class="nav">
                 <ul class="nav__menu">
                     <li class="nav__item">
@@ -36,13 +40,14 @@
 
         <main class="main">
             <section id="welcome" class="welcome">
-
                 <h1 class="title">
                     Hey, I am Alexandra Liutsko!
                 </h1>
-                <p class="text">
+
+                <span class="text">
                     a beginner web developer
-                </p>
+                </span>
+
                 <div class="avatar">
                     <img src="img/av.jpg" alt="avatar" class="avatar__img">
                 </div>
@@ -52,6 +57,7 @@
                 <h2 class="subtitle">
                     About me
                 </h2>
+
                 <p class="text about__text">
                     Young and ambitious specialist,
                     ready to perform interesting tasks,
@@ -83,60 +89,60 @@
                 </h2>
 
                 <div class="flex">
-
-                    <div class="project-tile">
-                        <a class="project-link" href="https://nekoguard.github.io/bees/" target="_blank">
+                    <a class="project-link" href="https://nekoguard.github.io/bees/" target="_blank">
+                        <figure class="project-tile">
                             <img class="project-img" src="img/bees.jpg" alt="">
-                        </a>
-                        <p class="project-name">
-                            Bees
-                        </p>
-                    </div>
+                            <figcaption class="project-name">
+                                Bees
+                            </figcaption>
+                        </figure>
+                    </a>
 
-                    <div class="project-tile">
-                        <a class="project-link" href="https://rolling-scopes-school.github.io/nekoguard-JSFEPRESCHOOL/whack-a-mole/" target="_blank">
+                    <a class="project-link" href="https://rolling-scopes-school.github.io/nekoguard-JSFEPRESCHOOL/whack-a-mole/" target="_blank">
+                        <figure class="project-tile">
                             <img class="project-img" src="img/game.png" alt="">
-                        </a>
-                        <p class="project-name">
-                            Funny js-game
-                        </p>
-                    </div>
+                            <figcaption class="project-name">
+                                Funny js-game
+                            </figcaption>
+                        </figure>
+                    </a>
 
-                    <div class="project-tile">
-                        <a class="project-link" href="https://nekoguard.github.io/Landing/" target="_blank">
+                    <a class="project-link" href="https://nekoguard.github.io/Landing/" target="_blank">
+                        <figure class="project-tile">
                             <img class="project-img" src="img/landing.jpg" alt="">
-                        </a>
-                        <p class="project-name">
-                            Landing
-                        </p>
-                    </div>
+                            <figcaption class="project-name">
+                                Landing
+                            </figcaption>
+                        </figure>
+                    </a>
 
-                    <div class="project-tile">
-                        <a class="project-link" href="https://github.com/Nekoguard/learn-grid" target="_blank">
+                    <a class="project-link" href="https://github.com/Nekoguard/learn-grid" target="_blank">
+                        <figure class="project-tile">
                             <img class="project-img" src="img/grid-project.jpg" alt="">
-                        </a>
-                        <p class="project-name">
-                            Grid project
-                        </p>
-                    </div>
+                            <figcaption class="project-name">
+                                Grid project
+                            </figcaption>
+                        </figure>
+                    </a>
 
-                    <div class="project-tile">
-                        <a class="project-link" href="https://nekoguard.github.io/Simple-site/" target="_blank">
+                    <a class="project-link" href="https://nekoguard.github.io/Simple-site/" target="_blank">
+                        <figure class="project-tile">
                             <img class="project-img" src="img/photo-site.jpg" alt="">
-                        </a>
-                        <p class="project-name">
-                            Simple photo-site
-                        </p>
-                    </div>
+                            <figcaption class="project-name">
+                                Simple photo-site
+                            </figcaption>
+                        </figure>
+                    </a>
 
-                    <div class="project-tile">
-                        <a class="project-link" href="https://rolling-scopes-school.github.io/nekoguard-JSFEPRESCHOOL/vertical-slider/" target="_blank">
+
+                    <a class="project-link" href="https://rolling-scopes-school.github.io/nekoguard-JSFEPRESCHOOL/vertical-slider/" target="_blank">
+                        <figure class="project-tile">
                             <img class="project-img" src="img/slider.png" alt="">
-                        </a>
-                        <p class="project-name">
-                            Slider
-                        </p>
-                    </div>
+                            <figcaption class="project-name">
+                                Slider
+                            </figcaption>
+                        </figure>
+                    </a>
                 </div>
 
                 <a class="button" href="https://github.com/Nekoguard" target="_blank">
@@ -145,10 +151,12 @@
             </section>
 
             <section id="contacts" class="contacts">
-                <h2 class="title">
+                <h3 class="title">
                     Let's work together!
-                </h2>
-                <p class="contacts-text">How do you take your coffee?</p>
+                </h3>
+
+                <span class="contacts-text">How do you take your coffee?</span>
+
                 <ul class="contacts-menu">
                     <li class="contacts-item">
                         <a class="contacts-link icon-github" href="https://github.com/Nekoguard" target="_blank">
@@ -185,11 +193,13 @@
             <div class="footer__text">2021</div>
 
             <div class="rs-logo">
-                <a href="https://rs.school/js/">
+                <a href="https://rs.school/js/" target="_blank">
                     <img src="img/rs_school_js.svg" alt="rs-logo">
                 </a>
             </div>
         </footer>
     </div>
+
+    <script src="js/script.js"></script>
 </body>
 </html>
