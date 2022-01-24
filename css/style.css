@@ -317,14 +317,6 @@ body {
     border-bottom: 1px solid var(--main-white);
 }
 
-.rs-logo {
-    width: 150px;
-}
-
-.rs-logo img {
-    width: 100%;
-}
-
 @media (max-height: 600px) {
     .avatar {
         display: none;
