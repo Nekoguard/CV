@@ -1,2 +1,2 @@
 ### This is my porfolio
-https://nekoguard.github.io/CV/
+https://alexandraliutsko.github.io/CV/
